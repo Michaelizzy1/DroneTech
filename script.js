@@ -52,7 +52,8 @@ contactForm.addEventListener('submit', (e) => {
 
     // Here you would typically send the data to a server
     // For now, we'll just show a success message
-    alert(`Thank you, ${formData.name}! We've received your message and will get back to you soon.`);
+    // alert(`Thank you, ${formData.name}! We've received your message and will get back to you soon.`);
+    alert(`Please send your message through any of our social media platform for faster response`);
     
     // Reset the form
     contactForm.reset();
